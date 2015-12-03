@@ -3,9 +3,9 @@
  */
 package spelling;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
-import java.util.LinkedList;
 import java.util.List;
 
 import org.junit.Before;
@@ -97,6 +97,8 @@ public class AutoCompleteDictionaryTrieTester {
 		emptyDict.addWord("hellow");
 		smallDict.addWord("hellow");
 		largeDict.addWord("hellow");
+		
+		smallDict.printTree();
 
 		assertEquals("Asserting hellow is in empty dict", true, emptyDict.isWord("hellow"));
 		assertEquals("Asserting hellow is in small dict", true, smallDict.isWord("hellow"));

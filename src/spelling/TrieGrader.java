@@ -1,7 +1,6 @@
 package spelling;
 
 import java.io.PrintWriter;
-import java.lang.StringBuilder;
 import java.util.List;
 
 public class TrieGrader {
@@ -18,7 +17,7 @@ public class TrieGrader {
 
         PrintWriter out;
         try {
-            out = new PrintWriter("output.out");
+            out = new PrintWriter(System.out, true);
         } catch (Exception e) {
             e.printStackTrace();
             return;
