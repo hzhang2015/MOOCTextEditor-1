@@ -12,7 +12,7 @@ public class NearbyWordsGraderOne {
         PrintWriter out;
 
         try {
-            out = new PrintWriter("grader_output/module5.part1.out");
+            out = new PrintWriter(System.out);
         } catch (Exception e) {
             e.printStackTrace();
             return;

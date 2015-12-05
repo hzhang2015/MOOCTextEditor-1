@@ -11,7 +11,7 @@ public class NearbyWordsGraderTwo {
         PrintWriter out;
 
         try {
-            out = new PrintWriter("grader_output/module5.part2.out");
+            out = new PrintWriter(System.out);
         } catch (Exception e) {
             e.printStackTrace();
             return;
