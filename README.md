@@ -35,15 +35,17 @@ of the course. See file for description...
 
 ### Week 5 : Hash Maps and Edit Distance
 
--spelling.WordPath.java
--spelling.NearbyWords.java
--spelling.WPTree.java
+- spelling.WordPath.java
+- spelling.NearbyWords.java
+- spelling.WPTree.java
 
 ## Setup
 
 Importing Project into eclipse:
+
 1. Create a new Java Project in your workspace
 2. Import the starter files: File -> Import -> Select "File System" -> Next -> Browse and set root directory to folder contents of zip were extracted to -> Finish
 
 Feel free to use another IDE or manually compile and run your programs.
+
 If you need help, google is your friend.
